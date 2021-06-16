@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %} Home {% endblock %}
+{% block content %}
+<html>
+<head>
+    <title></title>
+        <style>
+            body
+            {
+            background-repeat:no-repeat;
+            background-attachment:fixed;
+            backgroud-size:cover;
+            background-position: 100% 100%;
+            background-image:url({{url_for('static', filename='1.jpg')}})
+            }
+
+        </style>
+     <img src="{{url_for('static', filename='8.jpg')}}" class="img-fluid" width="2000"  height="300"  />
+</head>
+</html>
+
+      <br>
+<br>
+<h1> &emsp; ABOUT ME  </h1><br>
+        <p>  Working as a Lead Data Scientist in FISERV in Chennai, India.
+            Teaching Data science and learning new ideas in this field are my favourite hobbies.
+            13+ years of extensive application development experience with over 5 years in Machine
+learning , Deep Learning, Bigdata, Hadoop technologies. I have been worked in various segments of financial Domain in my entire carrier like Wealth Management, Core Banking, Payment, Retail etc.
+<br> <br>My skills include, <br> &emsp;
+1) Python, Data Science Stack (Pandas, Sklearn, Numpy, Matplotlib etc.)<br>
+            &emsp;2) Proficient in entire Data Modelling life cycle - From exploratory data analysis to data cleaning to Feature Engineering to Model Building and Validation.<br>
+&emsp;3) Mentoring, hiring for data analytics & Data science Field.<br> &emsp;
+4) Building highly scalable ML Models and deployed into Cloud.<br> &emsp;
+
+            {% endblock %}

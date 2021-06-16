@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %} Contact {% endblock %}
+{% block content %}
+<html>
+<head>
+    <title></title>
+        <style>
+            body
+            {
+            background-repeat:no-repeat;
+            background-attachment:fixed;
+            backgroud-size:cover;
+            background-position: 100% 100%;
+            background-image:url({{url_for('static', filename='1.jpg')}})
+            }
+
+        </style>
+     <img src="{{url_for('static', filename='10.jpg')}}" class="img-fluid" width="2000"  height="300"  />
+</head>
+</html>
+
+      <br>
+<br>
+<div class="container">
+  <div class="right">
+<h1> <p style="text-align:center;"> CONTACT DETAILS  </p> </h1><br>
+<div class="alert alert-success" role="alert">
+ <h3> <p style="text-align:left"> Email :  </p>  <p style="text-align:left">  s.thangasami@gmail.com </p></h3>
+    <h3> <p style="text-align:left"> Phone :    </p>  <p style="text-align:left"> +91 9790917857 </p></h3>
+     <h3> <p style="text-align:left"> Gitup Link:   </p>  <p style="text-align:left">    https://github.com/Thangasami  </p></h3>
+    <h3> <p style="text-align:left"> LinkedIn:   </p>  <p style="text-align:left">   https://www.linkedin.com/in/thangasami-sivanu-10827571/  </p></h3>
+   <h3> <p style="text-align:left"> Blogs:   </p>  <p style="text-align:left">   https://thangasami.medium.com/  </p></h3>
+</div>
+
+            {% endblock %}

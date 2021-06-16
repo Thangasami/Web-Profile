@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+{% block title %} Gallery {% endblock %}
+{% block content %}
+<html>
+<head>
+    <title></title>
+        <style>
+            body
+            {
+            background-repeat:no-repeat;
+            background-attachment:fixed;
+            backgroud-size:cover;
+            background-position: 100% 100%;
+            background-image:url({{url_for('static', filename='1.jpg')}})
+            }
+
+        </style>
+    </head>
+
+</head>
+<style type="text/css" media="screen">
+</style>
+<body>
+<div id="headline1"> <h3><p style="text-align:left;"> Gandikotta  </p></h3></div>
+<img src="{{url_for('static', filename='j.jpg')}}" class="img-fluid" width="500"  height="200" alt="Alps" />
+ &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;
+<img src="{{url_for('static', filename='k.jpg')}}" class="img-fluid" width="500"  height="200" alt="Alps" />
+<div id="headline1"> <h3><p style="text-align:left;"> Western Ghats Trekking  </p></h3></div>
+<img src="{{url_for('static', filename='f.jpg')}}" class="img-fluid" width="500"  height="200" alt="Alps" />
+ &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;
+<img src="{{url_for('static', filename='c.jpg')}}" class="img-fluid" width="500"  height="200" alt="Alps" />
+<div id="headline1"> <h3><p style="text-align:left;"> 2020 Chennai marathon  </p></h3></div>
+<img src="{{url_for('static', filename='b.jpg')}}" class="img-fluid" width="500"  height="200" alt="Alps" />
+ &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;
+<img src="{{url_for('static', filename='h.jpg')}}" class="img-fluid" width="500"  height="200" alt="Alps" />
+<div id="headline1"> <h3><p style="text-align:left;"> Shravanabelagola  </p></h3></div>
+<img src="{{url_for('static', filename='d.jpg')}}" class="img-fluid" width="500"  height="200" alt="Alps" />
+ &emsp;  &emsp;  &emsp;  &emsp;  &emsp;  &emsp;
+<img src="{{url_for('static', filename='e.jpg')}}" class="img-fluid" width="500"  height="200" alt="Alps" />
+<br>
+<img src="{{url_for('static', filename='a.jpg')}}" class="img-fluid" width="500"  height="200" alt="Alps" />
+
+
+</body>
+
+</html>
+
+      <br>
+<br>
+
+            {% endblock %}

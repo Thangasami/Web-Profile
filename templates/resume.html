@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+{% block title %} download Resume {% endblock %}
+{% block content %}
+<html>
+<head>
+    <title></title>
+        <style>
+            body
+            {
+            background-repeat:no-repeat;
+            background-attachment:fixed;
+            backgroud-size:cover;
+            background-position: 100% 100%;
+            background-image:url({{url_for('static', filename='1.jpg')}})
+            }
+
+        </style>
+<img src="{{url_for('static', filename='12.jpg')}}" class="img-fluid" width="2000"  height="300"  />
+
+</head>
+
+
+<h3><marquee scrollamount="20"  > Click the link to download the Resume. </marquee></h3>
+  <p><h3>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+              &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+      <a href="{{url_for('download_file')}}"> Thanga's Resume </a></h3>
+  </p>
+
+ {% endblock %}

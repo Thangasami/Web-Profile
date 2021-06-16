@@ -1,0 +1,87 @@
+{% extends "base.html" %}
+{% block title %} journey {% endblock %}
+{% block content %}
+<html>
+<head>
+    <title></title>
+        <style>
+            body
+            {
+            background-repeat:no-repeat;
+            background-attachment:fixed;
+            backgroud-size:cover;
+            background-position: 100% 100%;
+            background-image:url({{url_for('static', filename='1.jpg')}})
+            }
+
+        </style>
+     <img src="{{url_for('static', filename='9.jpg')}}" class="img-fluid" width="2000"  height="300"  />
+</head>
+<br>
+<h3><marquee scrollamount="20" > All journeys have secret destinations of which the traveler is unaware - Martin Buber </marquee></h3>
+<br>
+<div class="container">
+  <div class="right">
+      <h1> <p style="text-align:center;"> MY JOURNEY  </p> </h1><br>
+<div class="alert alert-primary" role="alert">
+ <h3> <p style="text-align:center">COLLEGE</p></h3>
+</div>
+    <h4> <p style="text-align:center;"> |  </p> </ h4>
+    <h4> <p style="text-align:center;"> |  </p> </h4>
+    <h4> <p style="text-align:center;"> Madras Institute of Technology, Chennai  </p> </h4>
+    <h6> <p style="text-align:center;"> B.E in Aeronautics  </p> </h6>
+    <h6> <p style="text-align:center;"> CGPA 8.0 (First Class with Distinction)  </p> </h6>
+    <h4> <p style="text-align:center;"> |  </p> </h4>
+    <h4> <p style="text-align:center;"> |  </p> </h4>
+    <br>
+<div class="alert alert-primary" role="alert">
+ <h3> <p style="text-align:center">2007-2010</p></h3>
+</div><br>
+   <h4> <p style="text-align:center;"> |  </p> </ h4>
+    <h4> <p style="text-align:center;"> |  </p> </h4>
+
+    <h4> <p style="text-align:center;"> Infosys, Chennai  </p> </h4>
+      <h6> <p style="text-align:center;"> Senior Software Engineer  </p> </h6>
+    <h6> <p style="text-align:center;"> Worked in CITI bank account  </p> </h6>
+    <h6> <p style="text-align:center;"> Core Banking, RM, SQL  </p> </h6>
+    <h4> <p style="text-align:center;"> |  </p> </h4>
+    <h4> <p style="text-align:center;"> |  </p> </h4>
+    <br>
+<div class="alert alert-primary" role="alert">
+ <h3> <p style="text-align:center">2010-2014</p></h3>
+</div>
+    <h4> <p style="text-align:center;"> |  </p> </ h4>
+    <h4> <p style="text-align:center;"> |  </p> </h4>
+
+    <h4> <p style="text-align:center;"> Bank of America, Chennai  </p> </h4>
+     <h6> <p style="text-align:center;"> Analyst  </p> </h6>
+    <h6> <p style="text-align:center;"> Wealth Management Domain  </p> </h6>
+    <h6> <p style="text-align:center;"> Performance tuning, DB2, Splunk, Time Series Analysis  </p> </h6>
+    <h4> <p style="text-align:center;"> |  </p> </h4>
+    <h4> <p style="text-align:center;"> |  </p> </h4>
+    <br>
+<div class="alert alert-primary" role="alert">
+ <h3> <p style="text-align:center">2014-2018</p></h3>
+</div><br>
+    <h4> <p style="text-align:center;"> |  </p> </ h4>
+    <h4> <p style="text-align:center;"> |  </p> </h4>
+      <h4> <p style="text-align:center;"> Wipro, Chennai  </p> </h4>
+    <h6> <p style="text-align:center;"> Project Lead  </p> </h6>
+      <h6> <p style="text-align:center;"> Master Card Account  </p> </h6>
+    <h6> <p style="text-align:center;"> NLP, Machine Learning & Deep Learning  </p> </h6>
+    <h4> <p style="text-align:center;"> |  </p> </h4>
+    <h4> <p style="text-align:center;"> |  </p> </h4>
+<div class="alert alert-primary" role="alert">
+ <h3> <p style="text-align:center">2018 Onwards</p></h3>
+</div>
+     <h4> <p style="text-align:center;"> |  </p> </h4>
+    <h4> <p style="text-align:center;"> |  </p> </h4>
+     <h4> <p style="text-align:center;">    FISERV, Chennai </p></h4>
+    <h6> <p style="text-align:center;"> Lead Data Scientist  </p> </h6>
+    <h6> <p style="text-align:center;"> NLP, Flask, Fast API, Image Classification using CNN   </p> </h6>
+    <h6> <p style="text-align:center;"> AWS, Machine Learning & Mentoring  </p> </h6>
+    <h4> <p style="text-align:center;"> |  </p> </ h4>
+  </div>
+    </div>
+</html>
+ {% endblock %}
